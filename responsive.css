@@ -1,0 +1,133 @@
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container {
+    width: 1140px;
+  }
+  /* .testimonial__list1{
+        display: block;
+    } */
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  /* .testimonial__list1{
+        display: block;
+    } */
+    .morefeatures__main {
+        background-image: url(./image/morefatures/Base.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1343px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .testimonial__list1 {
+    display: block;
+  }
+  .morefeatures__bottom_middle_main {
+    display: none;
+  }
+
+  .bottom_left_icon1 {
+    text-align: left;
+  }
+  .bottom_left_title {
+    text-align: left;
+  }
+  .bottom_left_para {
+    text-align: left;
+  }
+  .morefeatures__main {
+    background-image: url(./image/morefatures/Base.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1343px;
+}
+.morefeatures__top {
+    /* margin-top: auto; */
+    text-align: center;
+    padding: 100px 0px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .testimonial__list1 {
+    display: block;
+  }
+  .morefeatures__bottom_middle_main {
+    display: none;
+  }
+  .bottom_left_icon1 {
+    text-align: left;
+  }
+  .bottom_left_title {
+    text-align: left;
+  }
+  .bottom_left_para {
+    text-align: left;
+  }
+  .morefeatures__main {
+    background-image: url(./image/morefatures/Base2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.morefeatures__top {
+    text-align: center;
+    padding: 20px 0;
+}
+}
+
+@media (min-width: 310px) and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .testimonial__list1 {
+    display: block;
+  }
+  .morefeatures__bottom_middle_main {
+    display: none;
+  }
+  .bottom_left_icon1 {
+    text-align: left;
+  }
+  .bottom_left_title {
+    text-align: left;
+  }
+  .bottom_left_para {
+    text-align: left;
+  }
+  .morefeatures__main {
+    background-image: url(./image/morefatures/Base2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height: 1343px; */
+    height: auto;
+}
+.morefeatures__top {
+    text-align: center;
+    padding:10px 0px;
+}
+}
