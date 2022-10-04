@@ -1,727 +1,750 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ehya Website</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="responsive.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  </head>
-  <body>
-    <div >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ehya Website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="stylesheet" href="./fontcustom/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Navbar Section -->
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/image/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#">Landing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Docs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Help</a>
+            </li>
+            <li class="nav-item">
+              <button class="nav-button">SignUp</button>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Hero Section -->
+  <!-- Features Section -->
+<div class="container">
+    <div class="features__top">
+      <h3 class="features__top__title">New Personal Finance App</h3>
+      <p class="features__top__para">
+        Ehya lets you take control of your money, balance your income and
+        expenses, and
+      </p>
+      <p class="features__top__para">understand where your money goes.</p>
+    </div>
+
+    <!--bootsrtrap  -->
+    <div class="feature__bottom ">
+      <div class="row" style="margin: 0; padding:0; width: 100%; ">
+
+        <div class="col-lg-4  col-md-12 col-sm-12 col-12" style="padding: 0; margin:0;">
+          <div class="feature__bottom_card">
+            <div class="feature__bottom_card_img1 ">
+              <img src="./featuresimage/Icon1.png" alt="icon" />
+
+            </div>
+            <div class="feature_mobile_icon ">
+              <img src="./featuresimage/Icon4.png" alt="icon">
+            </div>
+            <h3 class="feature_card_title">Easy access</h3>
+            <p style="margin:auto; " class="feature_card_para">
+              Take Ehya wherever you go so that you know what’s going on with your
+              money at all times.
+            </p>
+            <p class="feature_card_link">
+              <a href="#">Learn More</a>
+              <span><i class="fas fa-arrow-right"></i></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12" style="padding: 0; margin:0;" >
+          <div class="feature__bottom_card">
+            <div class="feature__bottom_card_img">
+              <img src="/featuresimage/Icon2.png" alt="icon" />
+            </div>
+            <h3 class="feature_card_title">Budgets that work</h3>
+            <p style="margin:auto; " class="feature_card_para">
+              Create budgets you can actually stick to, and see how you’re
+              spending your money.
+            </p>
+            <p class="feature_card_link">
+              <a href="#">Learn more</a>
+              <span><i class="fas fa-arrow-right"></i></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12" style="padding: 0; margin:0;">
+          <div class="feature__bottom_card">
+            <div class="feature__bottom_card_img">
+              <img src="/featuresimage/Icon_Total Control.png" alt="icon" />
+            </div>
+            <h3 class="feature_card_title">Total control</h3>
+            <p style="margin:auto; " class="feature_card_para">
+              Take a full control of your expenses. Landy will help you to do that
+              anywhere anytime.
+            </p>
+            <p class="feature_card_link">
+              <a href="#">Learn more </a><span><i class="fas fa-arrow-right"></i></span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- MoreFeatures Section -->
+
+  <div class="morefeatures__main">
+
+    <div>
+        <!-- <img src="./image/morefatures/Wave.png" alt="" style="width:100%"> -->
 
         <div class="container">
-            <nav class="navbar navbar-expand-lg ">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                    <img src="/image/logo.png" alt="">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav  mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" href="#">Landing</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" href="#">Pages</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Docs</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Help</a>
-                      </li>
-                      <li class="nav-item">
-                        <button class="nav-button">SignUp</button>
-                      </li>
+            <div class="morefeatures__top">
+                <h3 class="morefeatures__top_title">New Personal Finance App</h3>
+                <p class="morefeatures__top_para">Landy lets you take control of your money, balance your income
+                    and expenses, </p>
+                <p class="morefeatures__top_para">and understand where your money goes.</p>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="morefeatures__bottom_left_card">
+                        <p class="morefeatures__bottom_left_icon1 bottom_left_icon1 ">
+                            <img src="/image/morefatures/morefeaturesicon.svg" alt="icon">
+                        </p>
+                        <h3 class="morefeatures__bottom_left_title bottom_left_title">Easy access</h3>
+                        <p class="morefeatures__bottom_left_para bottom_left_para">Take Ehya wherever you go so
+                            that you know what’s going on with your money at all times.</p>
+                    </div>
+                    <div class="morefeatures__bottom_left_card">
+                        <p class="morefeatures__bottom_left_icon1 bottom_left_icon1">
+                            <img src="/image/morefatures/morefeaturesicon.svg" alt="icon">
+                        </p>
+                        <h3 class="morefeatures__bottom_left_title bottom_left_title">
+                            Track your spending
+                        </h3>
+                        <p class="morefeatures__bottom_left_para bottom_left_para">
+                            Follow your plan by keeping track of your spending throughout the month.
+                        </p>
+                    </div>
+                    <div class="morefeatures__bottom_left_card">
+                        <p class="morefeatures__bottom_left_icon1 bottom_left_icon1">
+                            <img src="/image/morefatures/morefeaturesicon.svg" alt="icon">
+                        </p>
+                        <h3 class="morefeatures__bottom_left_title bottom_left_title">Activity statistics</h3>
+                        <p class="morefeatures__bottom_left_para bottom_left_para">
+                            See statistics of income and expenses and displaying the forecast in the next
+                            period.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 morefeatures__bottom_middle_main">
+                    <div class="morefeatures__bottom_middle">
+                        <img src="/image/morefatures/iphone-x.png" alt="iphone">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="morefeatures__bottom_right_card">
+                        <p class="morefeatures__bottom_right_icon1">
+                            <img src="/image/morefatures/morefeaturesicon.svg" alt="icon">
+                        </p>
+                        <h3 class="morefeatures__bottom_right_title">Secure transfer</h3>
+                        <p class="morefeatures__bottom_right_para">Take Ehya wherever you go so that you know
+                            what’s going on with your money at all times.</p>
+                    </div>
+                    <div class="morefeatures__bottom_right_card">
+                        <p class="morefeatures__bottom_right_icon1">
+                            <img src="/image/morefatures/morefeaturesicon.svg" alt="icon">
+                        </p>
+                        <h3 class="morefeatures__bottom_right_title">
+                            Budget that works
+                        </h3>
+                        <p class="morefeatures__bottom_right_para">
+                            Create budgets you can actually stick to, and see how you’re spending your money.
+                        </p>
+                    </div>
+                    <div class="morefeatures__bottom_right_card">
+                        <p class="morefeatures__bottom_right_icon1">
+                            <img src="/image/morefatures/morefeaturesicon.svg" alt="icon">
+                        </p>
+                        <h3 class="morefeatures__bottom_right_title">
+                            Total control
+                        </h3>
+                        <p class="morefeatures__bottom_right_para">
+                            Take a full control of your expenses. Landy will help you to do that anywhere
+                            anytime.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+  <!-- Platform Section -->
+
+  <div class="platform__main">
+
+    <div class="row" style="justify-content: center;align-items: center; margin: 0; ">
+      
+        <div class="col-lg-6 col-md-12 col-sm-6 col-12">
+            <div class="platform__left_main">
+              <h3 class="platform__left_title">MULTI PLATFORM</h3>
+             <p class="platform__left_content">Landy build for any platform.  iOS, Android, React Native </p>
+             <p class="platform__left_content_mobile">Ehya build for any platform.</p>
+             <p class="platform__left_para">
+              Whichever platform you have. We prepared it,   so don’t be worry.
+             </p>
+             <p class="platform__left_para_mobile">
+              Self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.
+             </p>
+              <!-- card -->
+             <div class="platform_left_card">
+              <div class="row" style="margin: 0;">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                  <div class="platform__card_left">
+                    <p class="platform__card_left_icon">
+                      <img src="/image/platform/Icon.svg" alt="icon" />
+                    </p>
+                    <h3 class="platform__card__title">Easy access</h3>
+                    <p class="platform_card_para">
+                      Know what’s going on with your money at all times.
+                    </p>
+                    
                   </div>
                 </div>
-              </nav>
-            </div>
 
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                  <div class="platform__card_right">
+                    <p class="platform__card_left_icon">
+                      <img src="/image/platform/Icon1.svg" alt="icon" />
+                    </p>
+                    <h3 class="platform__card__title">Always in Sync</h3>
+                    <p class="platform_card_para">
+                      Don’t worry about the data, always be synchronized
+                    </p>
+                  </div>
+                </div>
 
-      <!-- <div class="container"> -->
-        <!-- <div class="container"> -->
-            <div class="row" style="width:100% ;">
-                <div class="col-lg-6">
-                    <div class="hero__container">
-                        <div class="hero__left">
-                          <h3>Manage all of your cards in one place</h3>
-                          <p>
-                            Ehya lets you take control of your money, balance your income
-                            and expenses, and understand where your money goes.
-                          </p>
-                          <span
-                            ><button class="hero__left_button">
-                              <img src="image/appstore.svg" alt="applpestore" /></button
-                          ></span>
-                          <span
-                            ><button class="hero__left_button">
-                              <img src="image/playstore.svg" alt="googleplay" /></button
-                          ></span>
-                        </div>
-            
-                      <!-- </div> -->
-                    </div>
+                <div class="platform__card_button_div" style="width: 250px;">
+                  <button class="platform__card_button">Try it out free <span style="padding-left: 27px;"><i class="fas fa-arrow-right"></i></span></button>
                 </div>
-                <div class="col-lg-6">
-                    <div style="position:relative ;">
-                        <img src="./image/Baseh.png" alt="" style="width:100%;">
-                        <div style="position:absolute ; top: 30px;
-                        right: -68px;">
-                            <img src="./image/iphone.png" alt="" style="width:85%;">
-                        </div>
-                    </div>
-                </div>
+              </div>
+              </div>
             </div>
-          
-        <div>
-            <!-- <img class="hero__wave" src="/image/Wave.png" alt=""> -->
+        </div>
+      
+
+      <div class="col-lg-6 col-sm-12 col-12">
+        <div class="platform__right">
+          <img src="/image/platform/Right.png" alt="right" />
+        </div>
+        <div class="platform__right_mobile">
+          <span class="platform__right_mobile_logo"> <img src="/image/platform/Apple.png" alt=""></span>
+          <span class="platform__right_mobile_logo"> <img src="/image/platform/andriod.png" alt=""></span>
+          <span class="platform__right_mobile_logo"> <img src="/image/platform/react.png" alt=""></span>
         </div>
       </div>
-    <!-- </div>  -->
-
-
-    
-    <!-- Features Section -->
-    <div class="container">
-      <div class="features__top">
-        <h3 class="features__top__title">New Personal Finance App</h3>
-        <p class="features__top__para">
-          Ehya lets you take control of your money, balance your income and
-          expenses, and
-        </p>
-        <p class="features__top__para">understand where your money goes.</p>
       </div>
-      <div class="feature__bottom">
-        <div class="feature__bottom_card">
-          <div class="feature__bottom_card_img">
-            <img src="./featuresimage/featuresicon1.png" alt="icon" />
-          </div>
-          <h3 class="feature_card_title">Easy access</h3>
-          <p class="feature_card_para">
-            Take Ehya wherever you go so that you know what’s going on with your
-            money at all times.
-          </p>
-          <p class="feature_card_link">
-            <a href="#">Learn More</a>
-            <span><i class="fas fa-arrow-right"></i></span>
-          </p>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+
+  <div class="container">
+    <div class="testimonial__top">
+      <h3 class="testimonial__top__head">OUR ACHIEVEMENTS</h3>
+      <p class="testimonial__top__para">
+        Landy has been used by people working on
+      </p>
+    </div>
+
+    <div class="testimonial__list">
+      <div class="row">
+        <div class="testimonial__list1 col-md-4 col-sm-6 col-6 testimonial__list2">
+          <img src="/image/testimonial/slack.svg" alt="working-company" />
         </div>
-        <div class="feature__bottom_card">
-          <div class="feature__bottom_card_img">
-            <img src="/featuresimage/Icon wallet.svg" alt="icon" />
-          </div>
-          <h3 class="feature_card_title">Budgets that work</h3>
-          <p class="feature_card_para">
-            Create budgets you can actually stick to, and see how you’re
-            spending your money.
-          </p>
-          <p class="feature_card_link">
-            <a href="#">Learn more</a>
-            <span><i class="fas fa-arrow-right"></i></span>
-          </p>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 testimonial__list2">
+          <img src="/image/testimonial/netflix.svg" alt="working-company" />
         </div>
-        <div class="feature__bottom_card">
-          <div class="feature__bottom_card_img">
-            <img src="/featuresimage/substract.svg" alt="icon" />
-          </div>
-          <h3 class="feature_card_title">Total control</h3>
-          <p class="feature_card_para">
-            Take a full control of your expenses. Landy will help you to do that
-            anywhere anytime.
-          </p>
-          <p class="feature_card_link">
-            <a href="#">Learn more </a
-            ><span><i class="fas fa-arrow-right"></i></span>
-          </p>
+
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 testimonial__list2">
+          <img src="/image/testimonial/fitbit.svg" alt="working-company" />
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 testimonial__list2">
+          <img src="/image/testimonial/google.svg" alt="working-company" />
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 testimonial__list2">
+          <img src="/image/testimonial/airbnb.svg" alt="working-company" />
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 testimonial__list2">
+          <img src="/image/testimonial/uber.svg" alt="working-company" />
         </div>
       </div>
     </div>
 
+    <!-- bootstrap -->
+    <div class="testimonils__bottom_container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="testimonial__bottom__card">
+            <div class="testimonial__bottom_star">
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+            </div>
+            <p class="testimonial__bottom_para">
+              I have been using Landy for several years now and it has become
+              my go to resource when managing my business and personal
+              finances.
+            </p>
+            <div class="testimonial__bottom_author_main">
+              <div class="testimonial__bottom_author_img">
+                <img src="/image/testimonial/Avatar1.svg" alt="" />
+              </div>
+              <div class="testimonial__bottom_author_info">
+                <h3 class="testimonial__bottom_author_info_heading">
+                  Viola Manisa
+                </h3>
+                <p class="testimonial__bottom_author_info_para">
+                  <span>
+                    <img src="/image/testimonial/verifiedsign.svg" alt="signtik" /> </span>Verified customer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <!-- More Features -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="testimonial__bottom__card">
+            <div class="testimonial__bottom_star">
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+            </div>
+            <p class="testimonial__bottom_para">
+              Can’t say enough good things. It’s such a simple app even my
+              parents and grandparents can understand how it works (enough).
+            </p>
+            <div class="testimonial__bottom_author_main">
+              <div class="testimonial__bottom_author_img">
+                <img src="/image/testimonial/Avatar2.svg" alt="" />
+              </div>
+              <div class="testimonial__bottom_author_info">
+                <h3 class="testimonial__bottom_author_info_heading">
+                  Bryan Arnoldy
+                </h3>
 
-    <div class="morefeatures__main">
+                <p class="testimonial__bottom_author_info_para">
+                  <span>
+                    <img src="/image/testimonial/verifiedsign.svg" alt="signtik" /> </span>Verified customer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <div >
-          <!-- <img src="./image/morefatures/Wave.png" alt="" style="width:100%"> -->
-      
-  <div class="container">
-      <div class="morefeatures__top">
-          <h3 class="morefeatures__top_title">New Personal Finance App</h3>
-          <p class="morefeatures__top_para">Landy lets you take control of your money, balance your income and expenses, </p>
-          <p class="morefeatures__top_para">and understand where your money goes.</p>
-      </div>  
-      
-      
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="testimonial__bottom__card">
+            <div class="testimonial__bottom_star">
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+            </div>
+            <p class="testimonial__bottom_para">
+              I love this app! When I started school, Landy was the banking
+              system that was used to receive our refunds. I never had a bit
+              of trouble.
+            </p>
+            <div class="testimonial__bottom_author_main">
+              <div class="testimonial__bottom_author_img">
+                <img src="/image/testimonial/Avatar3.svg" alt="" />
+              </div>
+              <div class="testimonial__bottom_author_info">
+                <h3 class="testimonial__bottom_author_info_heading">
+                  Joshua William
+                </h3>
+                <p class="testimonial__bottom_author_info_para">
+                  <span>
+                    <img src="/image/testimonial/verifiedsign.svg" alt="signtik" /> </span>Verified customer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="testimonial__bottom__card">
+            <div class="testimonial__bottom_star">
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+              <span><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
+            </div>
+            <p class="testimonial__bottom_para">
+              I’ve come across online banks and the major name banks and none
+              other compares to Landy. With landy you can do everything you
+              need to do.
+            </p>
+            <div class="testimonial__bottom_author_main">
+              <div class="testimonial__bottom_author_img">
+                <img src="/image/testimonial/Avatar1.svg" alt="" />
+              </div>
+              <div class="testimonial__bottom_author_info">
+                <h3 class="testimonial__bottom_author_info_heading">
+                  George Scotts
+                </h3>
+                <p class="testimonial__bottom_author_info_para">
+                  <span>
+                    <img src="/image/testimonial/verifiedsign.svg" alt="signtik" /> </span>Verified customer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Cta Section -->
+
+  <div class="cta__container" style="position:relative;">
+    <div class="cta_wavetop" style="padding: 0px;">
+      <img style="width: 100%; " src="/image/cta/Wavetop.png" alt="">
+    </div>
+    <div class="container">
+      <div class="cta__top">
+        <button class="cta__top_header">OUR PRICING</button>
+        <p class="cta__top_content">Choose the plan that’s right for your business</p>
+        <!-- <p class="cta__top_content">for your business</p> -->
+        <p class="cta__top_para">
+          <span class="cta__top_para1">Get started for free</span>, try out our
+          platform for an unlimited period of time. Explore our monthly and yearly plans and pick the one that best
+          suits
+          your needs.
+        </p>
+        <!-- <p class="cta__top_para">
+        Explore our monthly and yearly plans and pick the one that best suits
+        your needs.
+      </p> -->
+        <div class="toggle">
+          <p class="toggle__para">Bill Monthly</p>
+          <label class="switch">
+            <input type="checkbox" checked />
+            <span class="slider round"></span>
+          </label>
+          <ul class="toggle_ul">
+            <li class="toggle__para">Bill Annually</li>
+            <li class="toggle__para1">Save 15%</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- <div class="" style="position:relative"> -->
+
+      <div class="cta__card_main">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="cta__card">
+              <h3 class="cta__card_title">Started plan</h3>
+              <p class="cta__card_price">Free</p>
+              <p class="cta__card_plan">per month</p>
+              <p class="cta__card_para">
+                The easiest way to get started with for everyone.
+              </p>
+              <div class="cta__card_button">
+                <button class="cta__card_button1">
+                  Get started <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="cta__card1">
+              <h3 class="cta__card_title">Enterprise plan</h3>
+              <p class="cta__card_price price1">$19.00</p>
+              <p class="cta__card_plan">per month</p>
+              <p class="cta__card_para">
+                Advanced collaborative option for partners, families,
+                freelancer.
+              </p>
+              <div class="cta__card_button">
+                <button class="cta__card_button1">
+                  Get started <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="cta__card2">
+              <h3 class="cta__card_title">Enterprise plan</h3>
+              <p class="cta__card_price">$49.00</p>
+              <p class="cta__card_plan">per month</p>
+              <p class="cta__card_para">
+                Collaborative financial tracking and planning for small
+                businesses and enterprises.
+              </p>
+              <div class="cta__card_button">
+                <button class="cta__card_button2">
+                  Get started <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- bottom cta  -->
+
+      <!-- <div class="cta__bottom_card_main">
 
       <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="morefeatures__bottom_left_card">
-                  <p class="morefeatures__bottom_left_icon1 bottom_left_icon1 ">
-                      <img src="/image/morefatures/morefeaturesicon.svg" alt="icon">
-                  </p>
-                  <h3 class="morefeatures__bottom_left_title bottom_left_title">Easy access</h3>
-                  <p class="morefeatures__bottom_left_para bottom_left_para">Take Ehya wherever you go so that you know what’s going on with your money at all times.</p>
-              </div>
-              <div class="morefeatures__bottom_left_card">
-                  <p class="morefeatures__bottom_left_icon1 bottom_left_icon1">
-                      <img src="/image/morefatures/morefeaturesicon.svg" alt="icon">
-                  </p>
-                  <h3 class="morefeatures__bottom_left_title bottom_left_title">
-                      Track your spending
-                  </h3>
-                  <p class="morefeatures__bottom_left_para bottom_left_para">
-                      Follow your plan by keeping track of your spending throughout the month. 
-                  </p>
-              </div>
-              <div class="morefeatures__bottom_left_card">
-                  <p class="morefeatures__bottom_left_icon1 bottom_left_icon1">
-                      <img src="/image/morefatures/morefeaturesicon.svg" alt="icon">
-                  </p>
-                  <h3 class="morefeatures__bottom_left_title bottom_left_title">Activity statistics</h3>
-                  <p class="morefeatures__bottom_left_para bottom_left_para">
-                      See statistics of income and expenses and displaying the forecast in the next period.
-                  </p>
-              </div>
-          </div>
-
-          <div class="col-lg-4 morefeatures__bottom_middle_main">
-              <div class="morefeatures__bottom_middle">
-                  <img src="/image/morefatures/iphone-x.png" alt="iphone">
-              </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="morefeatures__bottom_right_card">
-                  <p class="morefeatures__bottom_right_icon1">
-                      <img src="/image/morefatures/morefeaturesicon.svg" alt="icon">
-                  </p>
-                  <h3 class="morefeatures__bottom_right_title">Secure transfer</h3>
-                  <p class="morefeatures__bottom_right_para">Take Ehya wherever you go so that you know what’s going on with your money at all times.</p>
-              </div>
-              <div class="morefeatures__bottom_right_card">
-                  <p class="morefeatures__bottom_right_icon1">
-                      <img src="/image/morefatures/morefeaturesicon.svg" alt="icon">
-                  </p>
-                  <h3 class="morefeatures__bottom_right_title">
-                      Budget that works
-                  </h3>
-                  <p class="morefeatures__bottom_right_para">
-                      Create budgets you can actually stick to, and see how you’re spending your money.
-                  </p>
-              </div>
-              <div class="morefeatures__bottom_right_card">
-                  <p class="morefeatures__bottom_right_icon1">
-                      <img src="/image/morefatures/morefeaturesicon.svg" alt="icon">
-                  </p>
-                  <h3 class="morefeatures__bottom_right_title">
-                      Total control
-                  </h3>
-                  <p class="morefeatures__bottom_right_para">
-                      Take a full control of your expenses. Landy will help you to do that anywhere anytime.
-                  </p>
-              </div>
-          </div>
-      </div>
-
-  </div>
-  </div>
-
-</div>
-
-    <!-- Platform Section -->
-    <div class="platform__main_container ">
-      <div class="platform_main ">
-        <div class="platform__left">
-          <h3 class="platform__left_title">MULTI PLATFORM</h3>
-          <p class="platform__left_content">Landy build for any platform.</p>
-          <p class="platform__left_content">iOS, Android, React Native</p>
-          <p class="platform__left_para">Whichever platform you have. We prepared it, so don’t be worry.</p>
-
-          <div class="platform__left_card">
-            <div class="platform__card_left">
-              <p class="platform__card_left_icon">
-                <img src="/image/platform/Icon.svg" alt="icon" />
-              </p>
-              <h3 class="platform__card__title">Easy access</h3>
-              <p class="platform_card_para">Know what’s going on with your money at all times.</p>
-              <div class="platform__card_button_div">
-                <button class="platform__card_button" >Try it out free</button>
-              </div>
-              
-            </div>
-            <div class="platform__card_right">
-              <p class="platform__card_left_icon">
-                <img src="/image/platform/Icon1.svg" alt="icon" />
-              </p>
-              <h3 class="platform__card__title">Always in Sync</h3>
-              <p class="platform_card_para">Don’t worry about the data, always be synchronized</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="platform__right">
-            <img src="/image/platform/Right.png" alt="right">
-        </div>
-      </div>
-    </div>
-
-                                         <!-- Testimonial Section  -->
-
-
-                                         <div class="container">
-                                          <div class="testimonial__top">
-                                            <h3 class="testimonial__top__head">OUR ACHIEVEMENTS</h3>
-                                            <p class="testimonial__top__para">
-                                              Landy has been used by people working on
-                                            </p>
-                                          </div>
-                                    
-                                          <div class="testimonial__list">
-                                            <div class="row">
-                                    
-                                              <div class=" testimonial__list1 col-md-4 col-sm-4 ">
-                                                <img src="/image/testimonial/slack.svg" alt="working-company" />
-                                              </div>
-                                    
-                                              <div class="col-lg-3 col-md-4 col-sm-4">
-                                                <img src="/image/testimonial/netflix.svg" alt="working-company" />
-                                              </div>
-                                    
-                                              <div class="col-lg-2 col-md-4 col-sm-4">
-                                                <img src="/image/testimonial/fitbit.svg" alt="working-company" />
-                                              </div>
-                                    
-                                              <div class="col-lg-2 col-md-4 col-sm-4">
-                                                <img src="/image/testimonial/google.svg" alt="working-company" />
-                                              </div>
-                                    
-                                              <div class="col-lg-2 col-md-4 col-sm-4">
-                                                <img src="/image/testimonial/airbnb.svg" alt="working-company" />
-                                              </div>
-                                    
-                                              <div class="col-lg-3 col-md-4 col-sm-4">
-                                                <img src="/image/testimonial/uber.svg" alt="working-company" />
-                                              </div>
-                                            </div>
-                                          </div>
-                                    
-                                          
-                                          <!-- bootstrap -->
-                                                <div class="testimonils__bottom_container">
-                                                  <div class="row">
-                                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                                      <div class="testimonial__bottom__card">
-                                                        <div >
-                                                          <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                          <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                          <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                          <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                          <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                         
-                                                        </div>
-                                                        <p class="testimonial__bottom_para">
-                                                          I have been using Landy for several years now and it has become my
-                                                          go to resource when managing my business and personal finances.
-                                                        </p>
-                                                        <div class="testimonial__bottom_author_main">
-                                                          <div class="testimonial__bottom_author_img">
-                                                            <img src="/image/testimonial/Avatar1.svg" alt="" />
-                                                          </div>
-                                                          <div class="testimonial__bottom_author_info">
-                                                            <h3 class="testimonial__bottom_author_info_heading">
-                                                              Viola Manisa
-                                                            </h3>
-                                                            <p class="testimonial__bottom_author_info_para">
-                                                              <span>
-                                                                <img
-                                                                  src="/image/testimonial/verifiedsign.svg"
-                                                                  alt="signtik"
-                                                                /> </span
-                                                              >Verified customer
-                                                            </p>
-                                                          </div>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                     
-                                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                                      <div class="testimonial__bottom__card">
-                                                        <div >
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                           
-                                                          </div>
-                                                      <p class="testimonial__bottom_para">
-                                                        Can’t say enough good things. It’s such a simple app even my parents
-                                                        and grandparents can understand how it works (enough).
-                                                      </p>
-                                                      <div class="testimonial__bottom_author_main">
-                                                        <div class="testimonial__bottom_author_img">
-                                                          <img src="/image/testimonial/Avatar2.svg" alt="" />
-                                                        </div>
-                                                        <div class="testimonial__bottom_author_info">
-                                                          <h3 class="testimonial__bottom_author_info_heading">
-                                                            Bryan Arnoldy
-                                                          </h3>
-                                            
-                                                          <p class="testimonial__bottom_author_info_para">
-                                                            <span>
-                                                              <img
-                                                                src="/image/testimonial/verifiedsign.svg"
-                                                                alt="signtik"
-                                                              /> </span
-                                                            >Verified customer
-                                                          </p>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                    </div>
-                                    
-                                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                                      <div class="testimonial__bottom__card">
-                                                        <div >
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                           
-                                                          </div>
-                                                      <p class="testimonial__bottom_para">
-                                                        I love this app! When I started school, Landy was the banking system
-                                                        that was used to receive our refunds. I never had a bit of trouble.
-                                                      </p>
-                                                      <div class="testimonial__bottom_author_main">
-                                                        <div class="testimonial__bottom_author_img">
-                                                          <img src="/image/testimonial/Avatar3.svg" alt="" />
-                                                        </div>
-                                                        <div class="testimonial__bottom_author_info">
-                                                          <h3 class="testimonial__bottom_author_info_heading">
-                                                            Joshua William
-                                                          </h3>
-                                                          <p class="testimonial__bottom_author_info_para">
-                                                            <span>
-                                                              <img
-                                                                src="/image/testimonial/verifiedsign.svg"
-                                                                alt="signtik"
-                                                              /> </span
-                                                            >Verified customer
-                                                          </p>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                    </div>
-                                    
-                                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                                      <div class="testimonial__bottom__card">
-                                                        <div >
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                            <span ><img class="testimonial__bottom__card__star" src="image/testimonial/star.svg" alt="rating" /></span>
-                                                           
-                                                          </div>
-                                                      <p class="testimonial__bottom_para">
-                                                        I’ve come across online banks and the major name banks and none
-                                                        other compares to Landy. With landy you can do everything you need
-                                                        to do.
-                                                      </p>
-                                                      <div class="testimonial__bottom_author_main">
-                                                        <div class="testimonial__bottom_author_img">
-                                                          <img src="/image/testimonial/Avatar1.svg" alt="" />
-                                                        </div>
-                                                        <div class="testimonial__bottom_author_info">
-                                                          <h3 class="testimonial__bottom_author_info_heading">
-                                                            George Scotts
-                                                          </h3>
-                                                          <p class="testimonial__bottom_author_info_para">
-                                                            <span>
-                                                              <img
-                                                                src="/image/testimonial/verifiedsign.svg"
-                                                                alt="signtik"
-                                                              /> </span
-                                                            >Verified customer
-                                                          </p>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                        </div>
-
-                                              <!--- CTA Section -->
-<div class="container">
-  <div class="cta__top">
-    <button class="cta__top_header">OUR PRICING</button>
-    <p class="cta__top_content">Choose the plan that’s right</p>
-    <p class="cta__top_content">for your business</p>
-    <p class="cta__top_para">
-      <span class="cta__top_para1">Get started for free</span>, try out our
-      platform for an unlimited period of time.
-    </p>
-    <p class="cta__top_para">
-      Explore our monthly and yearly plans and pick the one that best suits
-      your needs.
-    </p>
-    <div class="toggle">
-      <p class="toggle__para">Bill Monthly</p>
-      <label class="switch">
-        <input type="checkbox" checked />
-        <span class="slider round"></span>
-      </label>
-      <ul class="toggle_ul">
-        <li class="toggle__para">Bill Annually</li>
-        <li class="toggle__para1">Save 15%</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="cta__card_main">
-    <div class="row">
-      <div class="col-lg-4 col-md-12 col-sm-12">
-        <div class="cta__card">
-          <h3 class="cta__card_title">Started plan</h3>
-          <p class="cta__card_price">Free</p>
-          <p class="cta__card_plan">per month</p>
-          <p class="cta__card_para">
-            The easiest way to get started with for everyone.
-          </p>
-          <div class="cta__card_button">
-            <button class="cta__card_button1">
-              Get started <span><i class="fas fa-arrow-right"></i></span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-12 col-sm-12">
-          <div class="cta__card1">
-            <h3 class="cta__card_title">Enterprise plan</h3>
-            <p class="cta__card_price price1">$19.00</p>
-            <p class="cta__card_plan">per month</p>
-            <p class="cta__card_para">
-              Advanced collaborative option for partners, families,
-              freelancer.
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="cta__bottom_card">
+            <p class="cta__bottom_card_head">Get a our finance app now</p>
+            <p class="cta__bottom_card_para">
+              No contact, no set-up costs, just awesome way to organise your
+              money.
             </p>
-            <div class="cta__card_button">
-              <button class="cta__card_button1">
-                Get started <span><i class="fas fa-arrow-right"></i></span>
-              </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="cta__card_button">
+            <button class="cta__bottom_card_button">
+              Try it for free
+              <span class="cta__bottom_card_arrow"><i class="fas fa-arrow-right"></i></span></button>
+            <button class="cta__bottom_card_button1 ">
+              Watch Demo<span class="cta__bottom_card_arrow"><i class="fas fa-arrow-right"></i></span></button </div>
+
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+      <!-- </div> -->
+
+    </div>
+
+
+    <!-- wave -->
+    <div class="cta_wavebottom" style="padding: 0px;">
+      <img style="width: 100%; " src="/image/cta/Wavebottom.png" alt="">
+    </div>
+
+    <div class="container">
+      <div class="cta__bottom_card_main">
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="cta__bottom_card">
+              <p class="cta__bottom_card_head">Get a our finance app now</p>
+              <p class="cta__bottom_card_para">
+                No contact, no set-up costs, just awesome way to organise your
+                money.
+              </p>
             </div>
           </div>
         </div>
 
-      <div class="col-lg-4 col-md-12 col-sm-12">
-        <div class="cta__card2">
-          <h3 class="cta__card_title">Enterprise plan</h3>
-          <p class="cta__card_price">$49.00</p>
-          <p class="cta__card_plan">per month</p>
-          <p class="cta__card_para">
-            Collaborative financial tracking and planning for small
-            businesses and enterprises.
-          </p>
-          <div class="cta__card_button">
-            <button class="cta__card_button2">
-              Get started <span><i class="fas fa-arrow-right"></i></span>
-            </button>
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="cta__card_button">
+              <button class="cta__bottom_card_button">
+                Try it for free
+                <span class="cta__bottom_card_arrow"><i class="fas fa-arrow-right"></i></span></button>
+              <button class="cta__bottom_card_button1 ">
+                Watch Demo<span class="cta__bottom_card_arrow"><i class="fas fa-arrow-right"></i></span></button </div>
+
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- Footer Section -->
 
-                <!-- bottom cta  -->
-
-    <div class="cta__bottom_card_main" >
-      
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-                <div class="cta__bottom_card">
-                    <p class="cta__bottom_card_head">Get a our finance app now</p>
-                    <p class="cta__bottom_card_para">
-                      No contact, no set-up costs, just awesome way to organise your
-                      money.
-                    </p>
-                    </div>
-            </div>
-        </div>
-        
-
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-                <div class="cta__card_button" >
-                          <button class="cta__bottom_card_button">
-                              Try it for free
-                              <span class="cta__bottom_card_arrow"><i class="fas fa-arrow-right"></i></span></button
-                          >
-                        <button class="cta__bottom_card_button1 ">
-                          Watch Demo<span
-                             class="cta__bottom_card_arrow"><i class="fas fa-arrow-right"></i
-                          ></span></button
-                  </div> 
-      
-            </div>
-        </div>
-       </div>
-    </div>
-
-</div>
-
-    <!-- footer section -->
-    <div class="container">
-      <div class="footer">
+  <div class="container">
+    <div class="footer">
       <div>
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-12 ">
-                <div>
-                    <h3 class="footer__logo">
-                      <img src="/image/footer/Logo.svg" alt="logo" />
-                    </h3>
-                    <p class="footer__left__para">
-                      Build a modern and creative website with crealand
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-3">
-                       <p class="footer__left__icon"><img src="/image/footer/google.svg" alt="logo" /></p> 
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-3">
-                        <p class="footer__left__icon"><img src="/image/footer/twiteer.svg" alt="logo" /></p> 
-                     </div>
-
-                     <div class="col-lg-3 col-md-3 col-sm-3">
-                        <p class="footer__left__icon"><img src="/image/footer/instagram.svg" alt="logo" /></p> 
-                     </div>
-
-                     <div class="col-lg-3 col-md-3 col-sm-3">
-                        <p class="footer__left__icon"><img src="/image/footer/linkdein.svg" alt="logo" /></p> 
-                     </div>
-                </div>
+          <div class="col-lg-3 col-md-4 col-sm-12 col-12 orderchange">
+            <div class="footer__left_main">
+              <h3 class="footer__logo">
+                <img src="/image/footer/Logo.svg" alt="logo" />
+              </h3>
+              <p class="footer__left__para">
+                Build a modern and creative website with crealand
+              </p>
             </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <p class="footer__comp_name">
+                  <span class="footer__left__icon"></span><img src="/image/footer/google.svg" alt="logo" /></span>
+                  <span class="footer__left__icon"><img src="/image/footer/twiteer.svg" alt="logo" /></span>
+                  <span class="footer__left__icon"><img src="/image/footer/instagram.svg" alt="logo" /></span>
+                  <span class="footer__left__icon"><img src="/image/footer/linkdein.svg" alt="logo" /></span>
+                </p>
+              </div>
 
-            <div class="col-lg-9 col-md-8 col-sm-12 ">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div>
-                            <h3 class="footer__right__title">Product</h3>
-                            <ul class="footer__right__ul">
-                              <li class="footer__right__list__text">
-                                <a href="#">Landingpage</a>
-                              </li>
-                              <li class="footer__right__list__text">
-                                <a href="#">Features</a>
-                              </li>
-                              <li class="footer__right__list__text">
-                                <a href="#">Documentation</a>
-                              </li>
-                              <li class="footer__right__list__text">
-                                <a href="#">Referral Program</a>
-                              </li>
-                              <li class="footer__right__list__text">
-                                <a href="#">Pricing</a>
-                              </li>
-                            </ul>
-                          </div>
-                    </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div>
-                            <h3 class="footer__right__title">Services</h3>
-                            <ul class="footer__right__ul">
-                              <li class="footer__right__list__text">
-                                <a href="#">Documentation</a>
-                              </li>
-                              <li class="footer__right__list__text">
-                                <a href="#">Design</a>
-                              </li>
-                              <li class="footer__right__list__text">
-                                <a href="#">Themes</a>
-                              </li>
-                              <li class="footer__right__list__text">
-                                <a href="#">Illustrations</a>
-                              </li>
-                              <li class="footer__right__list__text">
-                                <a href="#">UI Kit</a>
-                              </li>
-                            </ul>
-                          </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div>
-                            <h3 class="footer__right__title">Company</h3>
-                            <ul class="footer__right__ul">
-                              <li class="footer__right__list__text"><a href="#">About</a></li>
-                              <li class="footer__right__list__text"><a href="#">Terms</a></li>
-                              <li class="footer__right__list__text">
-                                <a href="#">Privacy Policy</a>
-                              </li>
-                              <li class="footer__right__list__text">
-                                <a href="#">Careers</a>
-                              </li>
-                            </ul>
-                          </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div>
-                            <h3 class="footer__right__title">More</h3>
-                            <ul class="footer__right__ul">
-                              <li class="footer__right__list__text">
-                                <a href="#"></a>Documentation
-                              </li>
-                              <li class="footer__right__list__text">
-                                <a href="#"></a>License
-                              </li>
-                              <li class="footer__right__list__text">
-                                <a href="#">Changelog</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                </div>
             </div>
+          </div>
 
-            
+          <div class="col-lg-9 col-md-8 col-sm-12 col-12 ">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <div class="footer__right_main">
+                  <h3 class="footer__right__title">Product</h3>
+                  <ul style="padding: 0; margin:0;">
+                    <li class="footer__right__list__text">
+                      <a href="#">Landingpage</a>
+                    </li>
+                    <li class="footer__right__list__text">
+                      <a href="#">Features</a>
+                    </li>
+                    <li class="footer__right__list__text">
+                      <a href="#">Documentation</a>
+                    </li>
+                    <li class="footer__right__list__text">
+                      <a href="#">Referral Program</a>
+                    </li>
+                    <li class="footer__right__list__text">
+                      <a href="#">Pricing</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <div class="footer__right_main">
+                  <h3 class="footer__right__title">Services</h3>
+                  <ul style="padding: 0; margin:0;">
+                    <li class="footer__right__list__text">
+                      <a href="#">Documentation</a>
+                    </li>
+                    <li class="footer__right__list__text">
+                      <a href="#">Design</a>
+                    </li>
+                    <li class="footer__right__list__text">
+                      <a href="#">Themes</a>
+                    </li>
+                    <li class="footer__right__list__text">
+                      <a href="#">Illustrations</a>
+                    </li>
+                    <li class="footer__right__list__text">
+                      <a href="#">UI Kit</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <div class="footer__right_main">
+                  <h3 class="footer__right__title">Company</h3>
+                  <ul style="padding: 0; margin:0;">
+                    <li class="footer__right__list__text"><a href="#">About</a></li>
+                    <li class="footer__right__list__text"><a href="#">Terms</a></li>
+                    <li class="footer__right__list__text">
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="footer__right__list__text">
+                      <a href="#">Careers</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <div class="footer__right_main">
+                  <h3 class="footer__right__title">More</h3>
+                  <ul style="padding: 0; margin:0;">
+                    <li class="footer__right__list__text">
+                      <a href="#"></a>Documentation
+                    </li>
+                    <li class="footer__right__list__text">
+                      <a href="#"></a>License
+                    </li>
+                    <li class="footer__right__list__text">
+                      <a href="#">Changelog</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="footer__bottom"> 
-        <p>
-            <img src="/image/footer/Heart.svg" alt="">
-        </p>
-        <p class="footer__bottom__para">Copyright © 2019. Crafted with love.</p>
-    </div>
 
     </div>
+  </div>
 
-  </body>
+  <div class="footer__bottom">
+    <p>
+      <img src="/image/footer/Heart.svg" alt="">
+    </p>
+    <p class="footer__bottom__para">Copyright © 2019. Crafted with love.</p>
+  </div>
+
+  </div>
+
+</body>
+
 </html>

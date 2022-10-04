@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero</title>
    
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="./fontcustom/stylesheet.css">
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -17,8 +21,6 @@
       rel="stylesheet"
     />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="responsive.css" />
 </head>
 <body>
 
@@ -58,8 +60,14 @@
     </div>
 
 
+    <!-- <div class="hero_main"> -->
+    <!-- <div class="container"> -->
+
+      
+
     
-    <div class="row" style="width:100%" >
+    <div class="row" style="width:100%; position: relative; margin: 0px; margin-top: 30px; background: linear-gradient(180deg, rgba(250, 251, 251, 0.0001) 0%, #F8FBFF 100%);" >
+      <!-- <div class="row" style="width:100%;" >  -->
         <div class="col-lg-6">
             <div class="hero__left ">
                 <h3 class="hero__left_title">Manage all of your cards in one place</h3>
@@ -72,7 +80,7 @@
                     <img src="image/appstore.svg" alt="applpestore" /></button
                 ></span>
                 <span
-                  ><button class="p-x">
+                  ><button class="hero__left_button2">
                     <img src="image/playstore.svg" alt="googleplay" /></button
                 ></span>
 
@@ -84,16 +92,24 @@
               </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6" style="padding: 0px;">
+          <div>
             <div class="hero__right_main">
-              <img class="hero__right_main_img" src="/image/iphone.png" alt="">
+              <img src="/image/Baseedit.png" alt="">
+              <div class="hero__right_main_img">
+                <img class="hero__right_main_img1" src="/image/iphone.png" alt="">
+              </div>
             </div>
         </div>
 
-<!-- 
-        <div >
-          <img src="/image/Wave.png" alt="">
-        </div> -->
+        <div  class="hero_wave" style="padding: 0px;" >
+          <img style="width: 100%;"src="/image/Wave.png" alt="">
+        </div>
+
+       
+      </div>
     </div>
+  <!-- </div> -->
+    <!-- </div> -->
 </body>
 </html>
