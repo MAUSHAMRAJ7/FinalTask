@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hero2</title>
+    <title>Hero3</title>
     <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="responsive.css" />
   <link rel="stylesheet" href="./fontcustom/stylesheet.css">
@@ -14,13 +14,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
 </head>
 <body>
-<!-- <div class="container"> -->
     <div class="container">
-        <nav class="navbar navbar-expand-lg ">
-          <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg  ">
+          <div class="container-fluid" style="padding: 0;">
             <a class="navbar-brand" href="#">
               <img src="/image/logo.png" alt="">
             </a>
@@ -53,46 +51,34 @@
         </nav>
       </div>
 
+
     <!-- Hero section -->
-    <div class="hero__container">
-    <div class="row hero__main" style="margin: 0;">
-        <div class="col-lg-6">
-            <div class="hero__left_main">
-                <h3 class="hero__left_title">Manage all of your cards in one place</h3>
-                <p class="hero__left_para">
-                  Ehya lets you take control of your money, balance your income
-                  and expenses, and understand where your money goes.
-                </p>
-                <span
-                  >
-                  <!-- <button class="hero__left_button"> -->
-                    <img src="image/appstore.svg" alt="applpestore" />
-                    <!-- </button -->
-                ></span>
-                <span
-                  >
-                  <!-- <button class="hero__left_button2"> -->
-                    <img src="image/playstore.svg" alt="googleplay" />
-                    <!-- </button> -->
-                  </span>
-
-                <div class="touch">
-                  <span><img src="/image/icon_touch.png" alt="icon"> </span><span class="touch_para_highlight">Start scrolling</span> <span class="touch_para">to see our features</span> 
-                
-              </div>
-            </div>
+    <div class="container_hero">
+        <div class="row" style="justify-content: center;
+        align-items: center; margin: 0; width: 100%; padding: 0;">
+            
+                <div class="col-lg-6 ">
+                    <div class="left_main_hero">
+                        <h3 class="left_hero_title" >Manage all of your cards in one place</h3>
+                        <p class="left_hero_para">Ehya lets you take control of your money, 
+                            balance your income and expenses, and understand where your money goes.</p>
+                        <p class="left_hero_button"><span class="left_button_logo"><img src="/image/appstore.svg" alt=""> </span> <span class="left_button_logo" style="padding-left: 10px;"><img src="/image/playstore.svg" alt=""> </span></p>
+                    
+                    <div class="touch_hero">
+                        <img src="/image/icon_touch.png" alt=""> <span style="color:#5A7184; font-weight: 600;" class="touch_hero_para">Start scrolling</span> <span class="touch_hero_para">to see our features</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 " style="margin:0; padding: 0;">
+                    <div class="right_main_hero">
+                        <img style="width: 100%;" src="/image/heroright2x.png" alt="">
+                    </div>
+                </div>
+            
         </div>
-        <div class="col-lg-6" style="padding: 0;">
-            <div class="hero__right">
-                <img style="width:100%;" src="/image/Oval4x.png" alt="">
-            </div>
-        </div>
+        <div  class="wave_hero" style="padding: 0px;" >
+            <img style="width: 100%;height: 175px;"src="/image/Wave.png" alt="">
+          </div>
     </div>
-
-    <div  class="hero_wave" style="padding: 0px;" >
-        <img style="width: 100%;"src="/image/Wave.png" alt="">
-      </div>
-</div>
-<!-- </div> -->
 </body>
 </html>
