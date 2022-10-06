@@ -887,8 +887,8 @@ display: none;
   text-align: left;
   color: #5a7184;
   padding: 0px 0px;
-  height: 56px;
-  width: 262px;
+  /* height: 56px; */
+  /* width: 262px; */
 }
 .platform__card_button_div {
   padding: 40px 0px;

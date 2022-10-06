@@ -37,6 +37,10 @@
     display: flex;
     gap: 10px;
   }
+  .platform_card_para {
+    height: auto; 
+    width: auto;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -85,6 +89,10 @@
 }
 .morefeatures__bottom_main {
   padding: 40px 0px;
+}
+.platform_card_para {
+  height: auto; 
+  width: auto;
 }
 }
 
@@ -392,13 +400,22 @@ text-align: center;
 }.platform__right{
   display: none;
 }
-.platform__right_mobile{
+/* .platform__right_mobile{
   display: block;
   text-align: center;
   padding: 20px 0px;
+} */
+.platform__right_mobile {
+  display: flex;
+  /* display: block; */
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  /* display: block; */
 }
 .platform__left_title {
   text-align: center;
+  padding: 20px 0px;
 }
 .platform__left_main {
   width: 100%;
@@ -410,19 +427,26 @@ text-align: center;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: 0.20000000298023224px;
-  /* padding-right: 10px; */
   color: #183b56;
   text-align: center;
+  height: 72px;
+  width: 272px;
+  margin: 0 auto;
 }
 .platform__left_para_mobile {
   display: block;
-  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0px;
   color: #5a7184;
   text-align: center;
+  height: 109px;
+  width: 272px;
+  margin: 0 auto;
+}
+.platform_left_card {
+  padding: 40px 0px;
 }
 .platform__card__title {
   text-align: center;
@@ -430,6 +454,8 @@ text-align: center;
 .platform_card_para {
   text-align: center;
   margin: 0 auto;
+  height: 56px;
+  width: 262px;
 }
 .platform__card_button_div {
   margin: 0 auto;
@@ -714,13 +740,19 @@ text-align: center;
   text-align: center;
   margin: 0;
 }
-.platform__right{
+.platform__right {
   display: none;
 }
-.platform__right_mobile{
+/* .platform__right_mobile{
   display: block;
   text-align: center;
   padding: 20px 0px;
+} */
+.platform__right_mobile {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
 }
 .platform__left_title {
   text-align: center;
@@ -735,19 +767,30 @@ text-align: center;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: 0.20000000298023224px;
-  /* padding-right: 10px; */
   color: #183b56;
   text-align: center;
+  height: 72px;
+  width: 272px;
+  margin: 0 auto;
 }
 .platform__left_para_mobile {
   display: block;
-  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0px;
   color: #5a7184;
   text-align: center;
+  height: 109px;
+  width: 272px;
+  margin: 0 auto;
+}
+.platform_left_card {
+  padding: 40px 0px;
+}
+.platform__left_title {
+  text-align: center;
+  padding: 20px 0px;
 }
 .platform__card__title {
   text-align: center;
@@ -755,6 +798,8 @@ text-align: center;
 .platform_card_para {
   text-align: center;
   margin: 0 auto;
+  height: 56px;
+  width: 262px;
 }
 .platform__card_button_div {
   margin: 0 auto;
@@ -769,7 +814,7 @@ text-align: center;
   text-align: center;
 }
 .platform__right_mobile_logo {
-  padding: 0px 16px;
+  padding: 0px 0px;
 }
 .left_hero_title {
   font-size: 32px;
