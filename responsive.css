@@ -447,6 +447,7 @@ text-align: center;
 }
 .platform__left_main {
   width: 100%;
+  height: auto;
 }
 .platform__left_content_mobile {
   display: block;
