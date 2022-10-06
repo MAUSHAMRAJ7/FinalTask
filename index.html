@@ -47,15 +47,47 @@
               <a class="nav-link active" aria-current="page" href="#">Help</a>
             </li>
             <li class="nav-item">
-              <button class="nav-button">SignUp</button>
+              <button class="nav-button"></button>
             </li>
         </div>
       </div>
     </nav>
   </div>
   <!-- Hero Section -->
+  <div class="container_hero">
+    <div class="row" style="justify-content: center;
+    align-items: center; margin: 0; width: 100%; padding: 0;">
+
+      <div class="col-lg-6 ">
+        <div class="left_main_hero">
+          <h3 class="left_hero_title">Manage all of your cards in one place</h3>
+          <p class="left_hero_para">Ehya lets you take control of your money,
+            balance your income and expenses, and understand where your money goes.</p>
+          <p class="left_hero_button"><span class="left_button_logo"><img class="left_button_logo_img"
+                src="/image/appstore.svg" alt=""> </span> <span class="left_button_logo"
+              style="padding-left: 10px;"><img class="left_button_logo_img" src="/image/playstore.svg" alt=""> </span>
+          </p>
+
+          <div class="touch_hero">
+            <img src="/image/icon_touch.png" alt=""> <span style="color:#5A7184; font-weight: 600;"
+              class="touch_hero_para">Start scrolling</span> <span class="touch_hero_para">to see our features</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 " style="margin:0; padding: 0;">
+        <div class="right_main_hero">
+          <img style="width: 100%;" src="/image/heroright2x.png" alt="">
+        </div>
+      </div>
+
+    </div>
+    <div class="wave_hero" style="padding: 0px;">
+      <img style="width: 100%;height: 175px;" src="/image/Wave.png" alt="">
+    </div>
+  </div>
   <!-- Features Section -->
-<div class="container">
+  <div class="features__container">
+  <div class="container">
     <div class="features__top">
       <h3 class="features__top__title">New Personal Finance App</h3>
       <p class="features__top__para">
@@ -90,7 +122,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-12 col-sm-12 col-12" style="padding: 0; margin:0;" >
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12" style="padding: 0; margin:0;">
           <div class="feature__bottom_card">
             <div class="feature__bottom_card_img">
               <img src="/featuresimage/Icon2.png" alt="icon" />
@@ -127,9 +159,10 @@
     </div>
   </div>
   </div>
+</div>
   <!-- MoreFeatures Section -->
 
-  <div class="morefeatures__main">
+  <div class="morefeatures__main" style="position:relative;">
 
     <div>
         <!-- <img src="./image/morefatures/Wave.png" alt="" style="width:100%"> -->
@@ -138,13 +171,14 @@
             <div class="morefeatures__top">
                 <h3 class="morefeatures__top_title">New Personal Finance App</h3>
                 <p class="morefeatures__top_para">Landy lets you take control of your money, balance your income
-                    and expenses, </p>
-                <p class="morefeatures__top_para">and understand where your money goes.</p>
+                    and expenses, and understand where your money goes.</p>
+                <!-- <p class="morefeatures__top_para">and understand where your money goes.</p> -->
             </div>
 
 
 
-            <div class="row">
+            <div class="row morefeatures__bottom_main">
+                
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="morefeatures__bottom_left_card">
                         <p class="morefeatures__bottom_left_icon1 bottom_left_icon1 ">
@@ -220,63 +254,67 @@
 
         </div>
     </div>
-
+        <div class="morefeatures_wave" style="position:absolute; width: 100%;">
+            <img style="width:100%" src="image/morefatures/moregeatureswave.png" alt="">
+        </div>
 </div>
   <!-- Platform Section -->
 
   <div class="platform__main">
 
-    <div class="row" style="justify-content: center;align-items: center; margin: 0; ">
-      
-        <div class="col-lg-6 col-md-12 col-sm-6 col-12">
-            <div class="platform__left_main">
-              <h3 class="platform__left_title">MULTI PLATFORM</h3>
-             <p class="platform__left_content">Landy build for any platform.  iOS, Android, React Native </p>
-             <p class="platform__left_content_mobile">Ehya build for any platform.</p>
-             <p class="platform__left_para">
-              Whichever platform you have. We prepared it,   so don’t be worry.
-             </p>
-             <p class="platform__left_para_mobile">
-              Self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.
-             </p>
-              <!-- card -->
-             <div class="platform_left_card">
-              <div class="row" style="margin: 0;">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                  <div class="platform__card_left">
-                    <p class="platform__card_left_icon">
-                      <img src="/image/platform/Icon.svg" alt="icon" />
-                    </p>
-                    <h3 class="platform__card__title">Easy access</h3>
-                    <p class="platform_card_para">
-                      Know what’s going on with your money at all times.
-                    </p>
-                    
-                  </div>
-                </div>
+    <div class="row" style="justify-content: center;align-items: center; margin: 0; padding:0;">
 
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                  <div class="platform__card_right">
-                    <p class="platform__card_left_icon">
-                      <img src="/image/platform/Icon1.svg" alt="icon" />
-                    </p>
-                    <h3 class="platform__card__title">Always in Sync</h3>
-                    <p class="platform_card_para">
-                      Don’t worry about the data, always be synchronized
-                    </p>
-                  </div>
-                </div>
+      <div class="col-lg-6 col-md-12 col-sm-6 col-12" style="padding: 0;">
+        <div class="platform__left_main">
+          <h3 class="platform__left_title">MULTI PLATFORM</h3>
+          <p class="platform__left_content">Landy build for any platform. iOS, Android, React Native </p>
+          <p class="platform__left_content_mobile">Ehya build for any platform.</p>
+          <p class="platform__left_para">
+            Whichever platform you have. We prepared it, so don’t be worry.
+          </p>
+          <p class="platform__left_para_mobile">
+            Self-service data analytics software that lets you create visually appealing data visualizations and
+            insightful dashboards in minutes.
+          </p>
+          <!-- card -->
+          <div class="platform_left_card">
+            <div class="row" style="margin: 0; padding: 0;">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="platform__card_left">
+                  <p class="platform__card_left_icon">
+                    <img src="/image/platform/Icon.svg" alt="icon" />
+                  </p>
+                  <h3 class="platform__card__title">Easy access</h3>
+                  <p class="platform_card_para">
+                    Know what’s going on with your money at all times.
+                  </p>
 
-                <div class="platform__card_button_div" style="width: 250px;">
-                  <button class="platform__card_button">Try it out free <span style="padding-left: 27px;"><i class="fas fa-arrow-right"></i></span></button>
                 </div>
               </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="platform__card_right">
+                  <p class="platform__card_left_icon">
+                    <img src="/image/platform/Icon1.svg" alt="icon" />
+                  </p>
+                  <h3 class="platform__card__title">Always in Sync</h3>
+                  <p class="platform_card_para">
+                    Don’t worry about the data, always be synchronized
+                  </p>
+                </div>
+              </div>
+
+              <div class="platform__card_button_div" style="width: 250px;">
+                <button class="platform__card_button">Try it out free <span style="padding-left: 27px;"><i
+                      class="fas fa-arrow-right"></i></span></button>
               </div>
             </div>
+          </div>
         </div>
-      
+      </div>
 
-      <div class="col-lg-6 col-sm-12 col-12">
+
+      <div class="col-lg-6 col-sm-12 col-12"  style="padding: 0;">
         <div class="platform__right">
           <img src="/image/platform/Right.png" alt="right" />
         </div>
@@ -286,10 +324,9 @@
           <span class="platform__right_mobile_logo"> <img src="/image/platform/react.png" alt=""></span>
         </div>
       </div>
-      </div>
     </div>
   </div>
-
+  </div>
   <!-- Testimonials Section -->
 
   <div class="container">
@@ -619,7 +656,7 @@
     </div>
   </div>
   <!-- Footer Section -->
-
+  <div class="footer__container">
   <div class="container">
     <div class="footer">
       <div>
@@ -744,6 +781,7 @@
   </div>
 
   </div>
+</div>
 
 </body>
 

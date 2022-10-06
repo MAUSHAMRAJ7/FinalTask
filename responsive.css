@@ -14,9 +14,6 @@
   .hero_wave {
     display: none;
 }
-.left_main_hero{
-
-}
 .hero__left_main {
   /* margin-left: 155px; */
   width: 80%;
@@ -35,6 +32,11 @@
       padding: 25px 0;
       /* padding-top: 9px; */
   }
+  .left_hero_button {
+    margin-top: 28px;
+    display: flex;
+    gap: 10px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -44,17 +46,6 @@
   /* .testimonial__list1{
         display: block;
     } */
-    .container2{
-      width: 960px;
-    }
-    .morefeatures__main {
-        background-image: url(./image/morefatures/Base.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 1343px;
-    }
     .feature__bottom_card {
       padding: 20px 0px;
   }
@@ -74,6 +65,26 @@
 .footer__left__icon {
   margin: 0;
   padding: 0px 4px;
+}
+.left_hero_button {
+  margin-top: 28px;
+  display: flex;
+  gap: 10px;
+}
+.morefeatures__bottom_left_para {
+  width: 280px;
+  margin-left: 15px;
+}
+.morefeatures__top {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 23px;
+}
+.morefeatures_wave {
+  display: none;
+}
+.morefeatures__bottom_main {
+  padding: 40px 0px;
 }
 }
 
@@ -100,23 +111,54 @@
   }
   .bottom_left_para {
     text-align: left;
-  }
+    margin: 0;
+    height: 82px;
+    width: 310px;
+}
   .morefeatures__main {
     background-image: url(./image/morefatures/Base.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 1343px;
+    
+}
+.morefeatures__bottom_main {
+  padding: -40px 0px;
+  padding: 60px 0px;
 }
 .morefeatures__top {
-    /* margin-top: auto; */
-    text-align: center;
-    padding: 100px 0px;
+  text-align: center;
+  padding-top: 100px;
+}
+.morefeatures__bottom_left_card {
+  padding: 5px 0px;
+}
+.morefeatures__bottom_right_card {
+  padding: 5px 0px;
+}
+.morefeatures__top_title {
+  height: 40px;
+  width: 385px;
+  margin: 0 auto;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+
+}
+.morefeatures__top_para {
+  height: 61px;
+  width: 650px;
+  padding-top: 16px;
+}
+
+.morefeatures_wave {
+  display: none;
 }
 .features__top__para{
-  display:initial;
+  height: 61px;
+  width: 650px;
 }
+
 .testimonial__bottom__card {
   height: 272px;
   /* width: 263px; */
@@ -196,6 +238,11 @@
 .right_main_hero {
   margin: 30px 0px;
 }
+.left_hero_button {
+  margin-top: 28px;
+  display: flex;
+  gap: 10px;
+}
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -226,21 +273,69 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: auto;
-}
-.morefeatures__top {
-    text-align: center;
-    padding: 20px 0;
 }
 
+.morefeatures__top {
+    text-align: center;
+    padding: 10px 0;
+}
+.morefeatures__top_title {
+  height: 72px;
+  width: 272px;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 auto;
+}
+.morefeatures__top_para {
+  height: 109px;
+  width: 272px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  padding-top: 16px;
+}
+.morefeatures__bottom_main {
+  padding: 48px 0px;
+}
+.morefeatures__bottom_right_para {
+  width: 272px;
+}
+.morefeatures__bottom_right_card {
+  padding: 10px 0px;
+}
+.morefeatures__bottom_left_card {
+  padding:10px 0px;
+}
+.bottom_left_para {
+  text-align: left;
+  margin: 0;
+  width: 272px;
+}
                                   /* Features section */
 
 .feature_mobile_icon{
   display: none;
 }
+.features__top__title {
+  height: 72px;
+  width: 272px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 36px;
+  margin: 0 auto;
+}
 .features__top__para{
-  display:initial;
+  height: 109px;
+  width: 272px;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
+.feature_card_para {
+  height: 84px;
+  width: 263px;
 }
 
 .testimonial__bottom_author_main {
@@ -372,6 +467,12 @@
   margin-top: 28px;
   text-align: center;
 }
+.left_hero_button {
+  margin-top: 28px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
 }
 
 @media (min-width: 310px) and (max-width: 576px) {
@@ -406,20 +507,71 @@
     height: auto;
 }
 .morefeatures__top {
-    text-align: center;
+    /* text-align: center; */
     padding:10px 0px;
+}
+
+.morefeatures__top_title {
+  height: 72px;
+  width: 272px;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 auto;
+}
+.morefeatures__top_para {
+  height: 109px;
+  width: 272px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  padding-top: 16px;
+}
+.morefeatures__bottom_main {
+  padding: 48px 0px;
+}
+.morefeatures__bottom_right_para {
+  width: 272px;
+}
+.morefeatures__bottom_right_card {
+  padding: 5px 0px;
+}
+.morefeatures__bottom_left_card {
+  padding: 5px 0px;
+}
+.bottom_left_para {
+  text-align: left;
+  margin: 0;
+  width: 272px;
 }
 .feature_mobile_icon{
   display: block;
+}
+.features__top__title {
+  height: 72px;
+  width: 272px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 36px;
+  margin: 0 auto;
+}
+.features__top__para{
+  height: 109px;
+  width: 272px;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
+.feature_card_para {
+  height: 84px;
+  width: 263px;
 }
 .feature__bottom_card_img1{
   display: none;
 }
 .feature__bottom_card {
   padding: 10px 0px;
-}
-.features__top__para{
-  display:initial;
 }
 
 .testimonial__bottom_author_main {
@@ -612,5 +764,44 @@
 }
 .platform__right_mobile_logo {
   padding: 0px 16px;
+}
+.left_hero_title {
+  font-size: 32px;
+  text-align: center;
+  width: 272px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.left_hero_para {
+  font-size: 16px;
+  text-align: center;
+  width: 272px;
+  line-height: 28px;
+  margin: 16px auto;
+}
+.touch_hero {
+  display: none;
+}
+.right_main_hero{
+  margin-top: 40px;
+}
+.left_hero_button {
+  margin-top: 28px;
+  text-align: center;
+}
+.left_main_hero {
+  width: 100%;
+}
+.left_button_logo {
+  padding: 0px;
+}
+.left_button_logo_img{
+  width: 100%;
+}
+.left_hero_button {
+  margin-top: 28px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 }
