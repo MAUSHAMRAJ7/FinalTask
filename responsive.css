@@ -429,7 +429,10 @@ text-align: center;
 }
 .platform_card_para {
   text-align: center;
-  width: 100%;
+  margin: 0 auto;
+}
+.platform__card_button_div {
+  margin: 0 auto;
 }
 .platform__left_content{
   display: none;
@@ -751,7 +754,10 @@ text-align: center;
 }
 .platform_card_para {
   text-align: center;
-  width: 100%;
+  margin: 0 auto;
+}
+.platform__card_button_div {
+  margin: 0 auto;
 }
 .platform__left_content{
   display: none;
