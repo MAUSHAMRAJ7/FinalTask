@@ -812,7 +812,10 @@ display: none;
   align-items: center;
 }
 .platform__left_main{
-  width: 66%;
+  height: 555px;
+ width: 555px;
+border-radius: 0px;
+
   margin: 0 auto;
 }
 /* .platform__left {
@@ -888,7 +891,7 @@ display: none;
   color: #5a7184;
   padding: 0px 0px;
   /* height: 56px; */
-  /* width: 262px; */
+  width: 256px;
 }
 .platform__card_button_div {
   padding: 40px 0px;
@@ -1020,6 +1023,9 @@ display: none;
   z-index: 999;
   margin-top: 40px;
 }
+.hero_right2{
+display: none;
+}
 .hero__main{
   justify-content: center;
     align-items: center;
@@ -1037,10 +1043,8 @@ display: none;
   position: relative;
 }
 .left_main_hero {
-  width: 70%;
-  /* border: 1px solid green; */
+  width: 539px;
   margin: 0 auto;
-  /* padding: 0 10px; */
 }
 .left_hero_title {
   font-family: 'HK Grotesk';
