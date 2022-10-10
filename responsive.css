@@ -69,6 +69,9 @@
     height: 153px;
     padding: 25px 0;
 }
+.testimonial__bottom_author_info {
+  padding: 0px 10px;
+}
 .cta__card_para {
   width: auto;
 }
@@ -194,7 +197,7 @@ text-align: center;
 }
 .testimonial__bottom_author_main {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   /* padding: 10px; */
   padding: 15px 0px;
 }
@@ -413,7 +416,7 @@ text-align: center;
 
 .testimonial__bottom_author_main {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   /* padding: 10px; */
   padding: 0px 0px;
   /* text-align: center; */
@@ -708,7 +711,7 @@ text-align: center;
 
 .testimonial__bottom_author_main {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   /* padding: 10px; */
   padding: 0px 0px;
   /* text-align: center; */

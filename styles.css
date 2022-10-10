@@ -238,12 +238,12 @@ a {
 }
 .testimonial__bottom_author_main {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     /* padding: 10px; */
-    padding: 23px 0px;
+    padding: 40px 0px;
 }
 .testimonial__bottom_author_info {
-  padding: 10px;
+  padding: 0px 20px;
 }
 .testimonial__bottom_author_info_heading {
   font-family: 'Open Sans', sans-serif;
