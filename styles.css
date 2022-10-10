@@ -1064,7 +1064,7 @@ display: none;
 
 /* hero section */
 .container_hero {
-  height: 781px;
+  /* height: 781px; */
   width: 100%;
   /* border: 1px solid green; */
   background: linear-gradient(180deg, rgba(250, 251, 251, 0.0001) 0%, #F8FBFF 100%);
@@ -1119,7 +1119,7 @@ padding: 16px 0px;
 }
 .wave_hero {
   position: absolute;
-  bottom: 14px;
+  bottom: 0px;
   /* height: 175px; */
   width: 100%;
 }
