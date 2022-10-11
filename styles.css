@@ -286,11 +286,12 @@ a {
   background-size: cover;
   /* background-position-y: bottom; */
 }
-.cta_wavebottom{
+.cta_wavebottom {
   position: absolute;
-  bottom: 220px;
+  /* bottom: 220px; */
   width: 100%;
-  height: 0%;
+  height: 175px;
+  bottom: 0px;
 }
 .cta_wavetop {
   width: 100%;
